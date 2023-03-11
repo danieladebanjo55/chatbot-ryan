@@ -18,7 +18,7 @@ const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber
   app.stage.addChild(model2)
 
   model2.scale.set(0.075)
-  model2.x = 150
+  model2.x = 100
   // model2.expression()
 })()
 
