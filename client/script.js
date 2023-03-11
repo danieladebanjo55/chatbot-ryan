@@ -1,5 +1,6 @@
-import bot from './assets/bot.svg'
+import bot from './assets/bot.png'
 import user from './assets/user.svg'
+import girl from './assets/girl.png'
 
 //vtuber web integration
 const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber/ldd.model3.json'
@@ -9,15 +10,15 @@ const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber
     view: document.getElementById('canvas'),
     autoStart: true,
     // resizeTo: window
-    backgroundColor: 0x343541,
+    backgroundColor: 0xd9d9d9,
   })
 
   const model2 = await PIXI.live2d.Live2DModel.from(cubism2Model)
 
   app.stage.addChild(model2)
 
-  model2.scale.set(0.078)
-  model2.x = 100
+  model2.scale.set(0.075)
+  model2.x = 150
   // model2.expression()
 })()
 
@@ -77,8 +78,8 @@ function chatStripe(isAi, value, uniqueId) {
             <div class="chat">
                 <div class="profile">
                     <img 
-                      src=${isAi ? bot : user} 
-                      alt="${isAi ? 'bot' : 'user'}" 
+                      src=${isAi ? bot : girl} 
+                      alt="${isAi ? 'bot' : 'girl'}" 
                     />
                 </div>
                 <div class="message" id=${uniqueId}>${value}</div>

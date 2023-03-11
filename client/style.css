@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #343541;
+  background: #d9d9d9;
 }
 
 #canvas {
@@ -24,13 +24,13 @@ body {
 #app {
   width: 80vw;
   height: 27vh;
-  background: #343541;
+  background: #d9d9d9;
 
   display: block;
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 10px;
+  bottom: 45px;
 
   margin: 0 auto;
 }
@@ -67,12 +67,13 @@ body {
   padding: 15px;
   position: relative;
   bottom: 0px;
-  border: solid 1px white;
+  color: #000;
+  border: solid 2px blue;
   border-radius: 20px;
 }
 
 .ai {
-  background: #40414F;
+  background: #fafafa;
 }
 
 .chat {
@@ -84,6 +85,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   gap: 10px;
+  color: #000;
 }
 
 .profile {
@@ -91,7 +93,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #5436DA;
+  background: #08a3ca;
 
   display: flex;
   justify-content: center;
@@ -99,7 +101,7 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #ffffffca;
 }
 
 .profile img {
@@ -111,7 +113,7 @@ body {
 .message {
   flex: 1;
 
-  color: #dcdcdc;
+  color: #000000;
   font-size: 20px;
 
   max-width: 100%;
@@ -139,7 +141,8 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #ffffff;
+  border: 3px solid #0256ff;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -150,9 +153,7 @@ form {
 
 textarea {
   width: 100%;
-  color: #fff;
-
-  color: #fff;
+  color: #000000;
   font-size: 18px;
 
   padding: 10px;
@@ -183,11 +184,11 @@ form img {
 
 #clear-button {
   font-size: 22px;
-  color: #dcdcdc;
+  color: #000;
   padding: 10px;
   margin-top: 14px;
   margin-bottom: 0px;
-  border: solid 2px #dcdcdc;
+  border: solid 3px #0055ff;
   border-radius: 5px;
   width: fit-content;
   position: relative;
