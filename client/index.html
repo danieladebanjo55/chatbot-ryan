@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Bot</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="/script.js"></script>
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+  </head>
+
+  <body>
+   <div class="general">
+    <center>
+      <canvas id="canvas" width="100%" height="25vh"></canvas>
+    </center>
+    <!-- <div id="image_container">
+        <img src="./assets/rmbg.png" alt="image" />
+      </div> -->
+
+    <div id="app">
+      <div id="chat_container"></div>
+      <form>
+        <textarea
+          name="prompt"
+          rows="1"
+          cols="1"
+          placeholder="Ask LDD Bot..."
+        ></textarea>
+        <button type="submit">
+          <img src="/assets/send.svg" />
+        </button>
+      </form>
+      <div class="my__button">
+        <button id="clear-button">clear conversation</button>
+      </div>
+    </div>
+   </div>
+
+    <script></script>
+  </body>
+</html>
