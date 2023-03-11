@@ -22,7 +22,7 @@ body {
 }
 
 #app {
-  width: 50vw;
+  width: 80vw;
   height: 27vh;
   background: #343541;
 
@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 30px;
+  bottom: 10px;
 
   margin: 0 auto;
 }
