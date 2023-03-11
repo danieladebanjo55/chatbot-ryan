@@ -141,7 +141,7 @@ form {
   flex-direction: row;
   gap: 10px;
   position: relative;
-  bottom: 5px;
+  bottom: 0px;
 }
 
 textarea {
@@ -181,8 +181,8 @@ form img {
   font-size: 22px;
   color: #dcdcdc;
   padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 14px;
+  margin-bottom: 0px;
   border: solid 2px #dcdcdc;
   border-radius: 5px;
   width: fit-content;

@@ -2,7 +2,7 @@ import bot from './assets/bot.svg'
 import user from './assets/user.svg'
 
 //vtuber web integration
-const cubism2Model = './LDD/ldd.model3.json'
+const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber/ldd.model3.json'
 
 ;(async function main() {
   const app = new PIXI.Application({
@@ -18,6 +18,7 @@ const cubism2Model = './LDD/ldd.model3.json'
 
   model2.scale.set(0.078)
   model2.x = 200
+  // model2.expression()
 })()
 
 //vtuber web integration end
@@ -110,7 +111,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://vtuber-chatbot.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -142,3 +143,7 @@ form.addEventListener('keyup', (e) => {
     handleSubmit(e)
   }
 })
+
+if (messageDiv.innerHTML.length >= 5) {
+  model2.expression();
+}
