@@ -17,7 +17,9 @@ body {
   align-items: center;
 }
 
-
+.general {
+  padding: 25px;
+}
 
 #app {
   width: 50vw;
