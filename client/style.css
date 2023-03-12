@@ -116,7 +116,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #a0a6a700;
+  background: #ffffffca;
 
   display: flex;
   justify-content: center;
@@ -206,7 +206,7 @@ form img {
 }
 
 #clear-button {
-  font-size: 22px;
+  font-size: 16px;
   color: #fff;
   padding: 10px;
   margin-top: 14px;
@@ -243,7 +243,7 @@ form img {
 h3.logo__text {
   display: flex;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffffff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 12px;
@@ -263,4 +263,77 @@ span {
   .vtuber__frame {
     height: 50vh;
   }
+}
+
+.floating__parent {
+  position: fixed;
+  bottom: 53%;
+  right: 18px;
+  text-align: center;
+  color: #00778b;
+}
+
+@media screen and (min-width: 900px) {
+  .floating__parent {
+    bottom: 65%;
+    right: 230px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .floating__parent {
+    bottom: 45%;
+    width: 200px;
+  }
+}
+
+.floating__parent .right__button {
+  width: 40px;
+  height: 40px;
+  background: url(./assets/robogirl.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-color: #babebe;
+  background-size: 24px;
+  background-position: center;
+  float: right;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0 -2px 3px -1px #00778b;
+}
+
+.floating__parent .widgetlabel {
+  color: #fff;
+  position: relative;
+  right: 10px;
+  top: 0px;
+  white-space: nowrap;
+  border: 1px solid #babebe;
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 300;
+  border-radius: 16px;
+  padding: 10px 15px 10px 20px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgb(0, 18 46 / 24%) 0px 6px 32px 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .floating__parent .widgetlabel {
+    font-size: 10px;
+    right: 5px;
+    top: 5px;
+    padding: 10px 15px 10px 12px;
+  }
+}
+
+.floating__parent .emoji {
+  width: 20px;
+  margin: 0 10px 2px;
+  user-select: none;
+  display: none;
 }

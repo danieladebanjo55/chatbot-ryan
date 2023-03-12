@@ -1,6 +1,6 @@
 import bot from './assets/robogirl.png'
 import user from './assets/user.svg'
-import girl from './assets/user.png'
+import girl from './assets/user-avatar.png'
 
 //vtuber web integration
 const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber/ldd.model3.json'
