@@ -32,6 +32,7 @@ body {
   position: relative;
   top: 25px;
   margin: 0 auto;
+  border: 3px solid white;
 }
 
 @media screen and (min-width: 500px) {
@@ -42,7 +43,14 @@ body {
 
 @media screen and (min-width: 900px) {
   #canvas {
-    max-width: 50vw;
+    max-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .vtuber__frame {
+    width: 50vw;
+    height: 50vh;
   }
 }
 
@@ -245,5 +253,11 @@ span {
 
 .vtuber__frame {
   width: 80vw;
-  border: none;
+  border: 1px solid green;
+}
+
+@media screen and (maxwidth: 500px) {
+  .vtuber__frame {
+    height: 50vh;
+  }
 }
