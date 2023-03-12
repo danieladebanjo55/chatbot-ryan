@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #d9d9d9;
+  background: #090909;
 }
 
 #canvas {
@@ -24,7 +24,7 @@ body {
 #app {
   width: 80vw;
   height: 27vh;
-  background: #d9d9d9;
+  background: #090909;
 
   display: block;
   align-items: center;
@@ -68,12 +68,12 @@ body {
   position: relative;
   bottom: 0px;
   color: #000;
-  border: solid 2px blue;
+  border: solid 2px #ffffff;
   border-radius: 20px;
 }
 
 .ai {
-  background: #fafafa;
+  background: #000;
 }
 
 .chat {
@@ -113,7 +113,7 @@ body {
 .message {
   flex: 1;
 
-  color: #000000;
+  color: #fff;
   font-size: 20px;
 
   max-width: 100%;
@@ -141,8 +141,8 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #ffffff;
-  border: 3px solid #0256ff;
+  background: #000000;
+  border: 3px solid #ffffff;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -153,7 +153,7 @@ form {
 
 textarea {
   width: 100%;
-  color: #000000;
+  color: #fff;
   font-size: 18px;
 
   padding: 10px;
@@ -184,11 +184,11 @@ form img {
 
 #clear-button {
   font-size: 22px;
-  color: #000;
+  color: #fff;
   padding: 10px;
   margin-top: 14px;
   margin-bottom: 0px;
-  border: solid 3px #0055ff;
+  border: solid 3px #ffffff;
   border-radius: 5px;
   width: fit-content;
   position: relative;
@@ -204,4 +204,26 @@ form img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.logo__area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__area img {
+  width: 100px;
+  height: 100px;
+}
+
+h3.logo__text {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.vtuber__frame {
+  width: 80vw;
+  border: 2px solid #fff;
 }

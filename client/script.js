@@ -10,15 +10,15 @@ const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber
     view: document.getElementById('canvas'),
     autoStart: true,
     // resizeTo: window
-    backgroundColor: 0xd9d9d9,
+    backgroundColor: 0x090909,
   })
 
   const model2 = await PIXI.live2d.Live2DModel.from(cubism2Model)
 
   app.stage.addChild(model2)
 
-  model2.scale.set(0.075)
-  model2.x = 100
+  model2.scale.set(0.073)
+  model2.x = (innerWidth - model2.width) / 2;
   // model2.expression()
 })()
 
