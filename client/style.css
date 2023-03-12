@@ -48,13 +48,13 @@ body {
 
 @media screen and (max-width: 900px) {
   #canvas {
-    max-width: 50vw;
+    max-width: 30vw;
   }
 }
 
 @media screen and (max-width: 900px) {
   .vtuber__frame {
-    height: 50vh;
+    height: 30vh;
   }
 }
 
