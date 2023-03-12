@@ -153,7 +153,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #000000;
-  border: 3px solid #ff4ca7;
+  border: 3px solid #4a072a;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -237,12 +237,12 @@ h3.logo__text {
 }
 
 span {
-  color: #ff4ca7;
+  color: #ab1362;
   font-weight: 600;
   font-size: 35px;
 }
 
 .vtuber__frame {
   width: 80vw;
-  border: 2px solid #ff4ca7;
+  border: 2px solid #4a072a;
 }
