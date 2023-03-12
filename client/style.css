@@ -34,6 +34,18 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 500px) {
+  #app {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #canvas {
+    max-width: 50vw;
+  }
+}
+
 .general {
   height: 100vh;
   overflow-x: hidden;
@@ -141,7 +153,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #000000;
-  border: 3px solid #ffffff;
+  border: 3px solid #ff4ca7;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -221,9 +233,16 @@ h3.logo__text {
   font-size: 30px;
   color: #ffffff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 12px;
+}
+
+span {
+  color: #ff4ca7;
+  font-weight: 600;
+  font-size: 35px;
 }
 
 .vtuber__frame {
   width: 80vw;
-  border: 2px solid #fff;
+  border: 2px solid #ff4ca7;
 }

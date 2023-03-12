@@ -9,7 +9,7 @@ const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber
   const app = new PIXI.Application({
     view: document.getElementById('canvas'),
     autoStart: true,
-    // resizeTo: window
+    resizeTo: window,
     backgroundColor: 0x090909,
   })
 
@@ -17,7 +17,8 @@ const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber
 
   app.stage.addChild(model2)
 
-  model2.scale.set(0.073)
+  model2.scale.set(0.083)
+  // model.scale.set(Math.min(scaleX, scaleY));
   model2.x = (innerWidth - model2.width) / 2;
   // model2.expression()
 })()
