@@ -32,7 +32,6 @@ body {
   position: relative;
   top: 25px;
   margin: 0 auto;
-  border: 3px solid white;
 }
 
 @media screen and (min-width: 500px) {
@@ -212,7 +211,7 @@ form img {
   padding: 10px;
   margin-top: 14px;
   margin-bottom: 0px;
-  border: solid 3px #ffffff;
+  border: solid 3px #ffffffd0;
   border-radius: 5px;
   width: fit-content;
   position: relative;
@@ -258,7 +257,6 @@ span {
 
 .vtuber__frame {
   width: 80vw;
-  border: 1px solid green;
 }
 
 @media screen and (maxwidth: 500px) {
