@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-
+  top: 25px;
   margin: 0 auto;
 }
 
@@ -218,8 +218,9 @@ form img {
 h3.logo__text {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 30px;
   color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .vtuber__frame {

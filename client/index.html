@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan Bot</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="/script.js"></script>
     <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
@@ -14,40 +20,43 @@
   </head>
 
   <body>
-   <div class="general">
-    <div class="logo__area">
-      <img src="./assets/ldd.png" alt="logo__area">
-      <h3 class="logo__text">
-        LDD Ai Bot
-      </h3>
-    </div>
+    <div class="general">
+      <div class="logo__area">
+        <img src="./assets/ldd.png" alt="logo__area" />
+        <h3 class="logo__text">LDD Ai Bot</h3>
+      </div>
 
-    <center>
-      <canvas class="vtuber__frame" id="canvas" width="100%" height="25vh"></canvas>
-    </center>
-    
-    <!-- <div id="image_container">
+      <center>
+        <canvas
+          class="vtuber__frame"
+          id="canvas"
+          width="100%"
+          height="25vh"
+        ></canvas>
+      </center>
+
+      <!-- <div id="image_container">
         <img src="./assets/rmbg.png" alt="image" />
       </div> -->
 
-    <div id="app">
-      <div id="chat_container"></div>
-      <form>
-        <textarea
-          name="prompt"
-          rows="1"
-          cols="1"
-          placeholder="Ask LDD Bot..."
-        ></textarea>
-        <button type="submit">
-          <img src="/assets/send.svg" />
-        </button>
-      </form>
-      <div class="my__button">
-        <button id="clear-button">clear conversation</button>
+      <div id="app">
+        <div id="chat_container"></div>
+        <form>
+          <textarea
+            name="prompt"
+            rows="1"
+            cols="1"
+            placeholder="Ask LDD Bot..."
+          ></textarea>
+          <button type="submit">
+            <img src="/assets/send.svg" />
+          </button>
+        </form>
+        <div class="my__button">
+          <button id="clear-button">clear chat</button>
+        </div>
       </div>
     </div>
-   </div>
 
     <script></script>
   </body>
