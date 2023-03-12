@@ -1,4 +1,4 @@
-import bot from './assets/bot.png'
+import bot from './assets/robogirl.png'
 import user from './assets/user.svg'
 import girl from './assets/girl.png'
 

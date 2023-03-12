@@ -104,7 +104,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #08a3ca;
+  background: #a0a6a7;
 
   display: flex;
   justify-content: center;
@@ -223,6 +223,7 @@ form img {
 }
 
 .logo__area img {
+  visibility: hidden;
   width: 100px;
   height: 100px;
 }
@@ -244,5 +245,5 @@ span {
 
 .vtuber__frame {
   width: 80vw;
-  border: 2px solid #4a072a;
+  border: none;
 }
