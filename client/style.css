@@ -282,7 +282,7 @@ span {
 
 @media screen and (max-width: 900px) {
   .floating__parent {
-    bottom: 45%;
+    bottom: 55%;
     width: 200px;
   }
 }
