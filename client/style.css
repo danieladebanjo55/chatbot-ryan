@@ -275,7 +275,7 @@ span {
   animation-iteration-count: infinite;
 }
 
-@keyframes disappear {
+/* @keyframes disappear {
   0% {
     bottom: 53%;
   }
@@ -288,7 +288,7 @@ span {
   100% {
     bottom: 53%;
   }
-}
+} */
 
 @media screen and (min-width: 900px) {
   .floating__parent {
