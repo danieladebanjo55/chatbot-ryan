@@ -4,7 +4,7 @@ import girl from './assets/user-avatar.png'
 
 setTimeout(function() {
   document.getElementById('floating').remove()
-}, 5000);
+}, 10000);
 
 //vtuber web integration
 const cubism2Model = 'https://cdn.jsdelivr.net/gh/danieladebanjo55/vtuber@vtuber/ldd.model3.json'
