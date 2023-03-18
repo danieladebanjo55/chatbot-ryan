@@ -22,8 +22,8 @@ body {
 }
 
 #app {
-  width: 80vw;
-  height: 27vh;
+  /* width: 80vw;
+  height: 27vh; */
   background: #090909;
 
   display: block;
@@ -37,13 +37,39 @@ body {
 @media screen and (min-width: 500px) {
   #app {
     max-width: 60vw;
+    /* border: 3px solid white; */
+    max-height: 70vh;
+    overflow-y: scroll;
+    top: 105px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+ 
 }
 
 @media screen and (min-width: 900px) {
   #canvas {
     max-width: 80vw;
   }
+}
+
+@media screen and (min-width: 900px) {
+  .column {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+ .row:after {
+  content: " ";
+  display: table;
+  clear: both;
+ }
 }
 
 @media screen and (max-width: 900px) {
@@ -255,9 +281,9 @@ span {
   font-size: 35px;
 }
 
-.vtuber__frame {
-  width: 80vw;
-}
+/* .vtuber__frame {
+  width: ;
+} */
 
 @media screen and (maxwidth: 500px) {
   .vtuber__frame {

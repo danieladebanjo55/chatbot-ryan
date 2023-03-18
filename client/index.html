@@ -26,32 +26,34 @@
         <h3 class="logo__text">LDD <span>V</span>tuber</h3>
       </div>
 
-      <center>
-        <canvas
-          class="vtuber__frame"
-          id="canvas"
-        ></canvas>
-      </center>
-
-      <!-- <div id="image_container">
-        <img src="./assets/rmbg.png" alt="image" />
-      </div> -->
-
-      <div id="app">
-        <div id="chat_container"></div>
-        <form>
-          <textarea
-            name="prompt"
-            rows="1"
-            cols="1"
-            placeholder="Ask LDD Vtuber..."
-          ></textarea>
-          <button type="submit">
-            <img src="/assets/send.svg" />
-          </button>
-        </form>
-        <div class="my__button">
-          <button id="clear-button">clear chat</button>
+      <div class="row">
+        <center>
+          <canvas
+            class="vtuber__frame column"
+            id="canvas"
+          ></canvas>
+        </center>
+  
+        <!-- <div id="image_container">
+          <img src="./assets/rmbg.png" alt="image" />
+        </div> -->
+  
+        <div id="app" class="column">
+          <div id="chat_container"></div>
+          <form>
+            <textarea
+              name="prompt"
+              rows="1"
+              cols="1"
+              placeholder="Ask LDD Vtuber..."
+            ></textarea>
+            <button type="submit">
+              <img src="/assets/send.svg" />
+            </button>
+          </form>
+          <div class="my__button">
+            <button id="clear-button">clear chat</button>
+          </div>
         </div>
       </div>
       <div class="floating__parent" id="floating">
