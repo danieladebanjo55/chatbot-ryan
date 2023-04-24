@@ -47,4 +47,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(PORT, () => console.log(`AI server started on ${PORT}`))
+app.listen(PORT, () => console.log(`AI server started now on ${PORT}`))
